@@ -1,0 +1,429 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 32652 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Administer/GP_Assignment01
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63001
+Successfully changed project path to: C:/Users/Administer/GP_Assignment01
+C:/Users/Administer/GP_Assignment01
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14684] Host "[IP] 112.169.180.2 [Port] 0 [Flags] 2 [Guid] 2828750540 [EditorId] 2828750540 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-91FGIBS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14684] Host "[IP] 112.169.180.2 [Port] 0 [Flags] 2 [Guid] 2828750540 [EditorId] 2828750540 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-91FGIBS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 12.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administer/GP_Assignment01/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014339 seconds.
+- Loaded All Assemblies, in  0.295 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 303 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.542 seconds
+Domain Reload Profiling: 835ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (502ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (386ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 1135ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 9.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5849 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (2.1 MB). Loaded Objects now: 6324.
+Memory consumption went from 254.9 MB to 252.9 MB.
+Total: 5.785200 ms (FindLiveObjects: 0.879200 ms CreateObjectMapping: 0.284600 ms MarkObjects: 3.836400 ms  DeleteObjects: 0.784000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 775667.457821 seconds.
+  path: Assets/Asset/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf
+  artifactKey: Guid(665f81014b4f80f418d82fc1e33b0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf using Guid(665f81014b4f80f418d82fc1e33b0d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81087cdc849153d8286d09930be166bd') in 0.246969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 39.636733 seconds.
+  path: Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/cars/car/car_6/car_6_black.fbx
+  artifactKey: Guid(50f53926913170b4daab14ab08678678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/cars/car/car_6/car_6_black.fbx using Guid(50f53926913170b4daab14ab08678678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ef966eb8b5cee0b4b3fdbe91cd304e') in 0.100069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(b2e0fc5d5d4f4f24a88b0396b442ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(b2e0fc5d5d4f4f24a88b0396b442ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b249f23b64f1ac6deb40878ff1800f16') in 0.046694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/ortho10gpc62cm2.mat
+  artifactKey: Guid(b2d9a456c5ea94e7e9b041a7ee15aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/ortho10gpc62cm2.mat using Guid(b2d9a456c5ea94e7e9b041a7ee15aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fc60ad1cc4baaea49171227bde2207') in 0.017373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/land.fbx
+  artifactKey: Guid(a667dafb577a3464aa05a8e0b8eac92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/land.fbx using Guid(a667dafb577a3464aa05a8e0b8eac92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30886f34f1def459850de1f19f8fee6e') in 0.019058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/cars/bus/bus_1/bus_1_yellow.fbx
+  artifactKey: Guid(80ec9d4b1fe521f4d92830bd743a27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/cars/bus/bus_1/bus_1_yellow.fbx using Guid(80ec9d4b1fe521f4d92830bd743a27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f1a302b942f430e8c74e924ea61400') in 0.048772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/ortho10gpc63860.mat
+  artifactKey: Guid(0ba1e6e8c4abd4921a2470a40e562426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/ortho10gpc63860.mat using Guid(0ba1e6e8c4abd4921a2470a40e562426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b124c8c457a9984f701f03d7fadc71dc') in 0.018306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/cars/van/van_1/van_1_black.fbx
+  artifactKey: Guid(b9c2258c2de39964da426e9c567b9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/asset_free_Ukraine_road_roadsign_cars/mesh/cars/van/van_1/van_1_black.fbx using Guid(b9c2258c2de39964da426e9c567b9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f351d4c39196fa2a6694a3e9178a8474') in 0.050769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.340423 seconds.
+  path: Assets/Asset/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Ground.mat
+  artifactKey: Guid(2f984dd1b63fbc24abdd916834492e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Ground.mat using Guid(2f984dd1b63fbc24abdd916834492e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3740d87d9b0429f8f13877c0b6277310') in 0.010523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.420458 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/RockefellerPlaza.mat
+  artifactKey: Guid(5baca44c253544a79997ee1d7a8f443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/RockefellerPlaza.mat using Guid(5baca44c253544a79997ee1d7a8f443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778d746367f2bcf1da36f5f8ffc86281') in 0.015102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.243110 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/subway_map_combined.mat
+  artifactKey: Guid(b548882a7ef27438388066a61d539cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/subway_map_combined.mat using Guid(b548882a7ef27438388066a61d539cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812f318549363107d6feb6a4b40ecf82') in 0.016175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_0.mat
+  artifactKey: Guid(da8d45f64b57144c486a12764f49d73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_0.mat using Guid(da8d45f64b57144c486a12764f49d73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c2c19af1035b35aa603792218688f8') in 0.015309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_4.mat
+  artifactKey: Guid(fcd688e4209254945b501c9bc0ae1311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_4.mat using Guid(fcd688e4209254945b501c9bc0ae1311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fc355729f698e40b990abb48938ade') in 0.013019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_6.mat
+  artifactKey: Guid(6c4dbff85efca414f93cbcfacea82a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_6.mat using Guid(6c4dbff85efca414f93cbcfacea82a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1f854f627ca6697d6c37ec9bd7a908') in 0.017971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_8.mat
+  artifactKey: Guid(7b62b9ca744084f8ba5e14fcb22f3686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_8.mat using Guid(7b62b9ca744084f8ba5e14fcb22f3686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc1c5df386230d34c1cfa75333b4319') in 0.017224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.104205 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_11.mat
+  artifactKey: Guid(fc6d6768ac262474095f7d97f36bac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_11.mat using Guid(fc6d6768ac262474095f7d97f36bac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e155c5a9dbbb546abf8845c4f97ef390') in 0.022554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.001460 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_14.mat
+  artifactKey: Guid(a96279464862f455b85c94460ab59578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_14.mat using Guid(a96279464862f455b85c94460ab59578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa23d4c41f8f0f02e7c8e17d6d7e05') in 0.015845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_18.mat
+  artifactKey: Guid(fc2f2f3ee904340acaf062f704181c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_18.mat using Guid(fc2f2f3ee904340acaf062f704181c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0867397185d9dd75b8362e4d8f7e14e0') in 0.016051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_19.mat
+  artifactKey: Guid(8f4592558a3164977bdd26507b300b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/terrain_19.mat using Guid(8f4592558a3164977bdd26507b300b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d14a774a74f791adb3c6964207940f') in 0.015200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_4.mat
+  artifactKey: Guid(801ffab98e6ff4012875041d8530cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_4.mat using Guid(801ffab98e6ff4012875041d8530cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a969098e0db9456851761c5bb7f26c9') in 0.016828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_2.mat
+  artifactKey: Guid(c1c7b1348bb9f4981a94b61866062e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_2.mat using Guid(c1c7b1348bb9f4981a94b61866062e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24f25dbdc884eadca777eefcc5d6141') in 0.016948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_3.mat
+  artifactKey: Guid(ca91f76e7218f4f6291ce9cf302e134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_3.mat using Guid(ca91f76e7218f4f6291ce9cf302e134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93423727a153d67972c1f593b392ae38') in 0.016371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_5.mat
+  artifactKey: Guid(28b4b3122ad2342578ca65426152427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/tree_5.mat using Guid(28b4b3122ad2342578ca65426152427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82230e691764f1e5dfd9c1ad8ed33a22') in 0.016804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.236934 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/West44thStreet.mat
+  artifactKey: Guid(02446a4414b654e58870dafc38e93ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/West44thStreet.mat using Guid(02446a4414b654e58870dafc38e93ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12383beb94c7ad65119ecfbe6244998c') in 0.026554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.077746 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/windowedFacade_brick_3_diffuse_1024.mat
+  artifactKey: Guid(5f2b2c05d1ee34750bbc4f4b94eba4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/windowedFacade_brick_3_diffuse_1024.mat using Guid(5f2b2c05d1ee34750bbc4f4b94eba4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807a108c0c7a9f2f74c90f5984c52ceb') in 0.030937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 35.319010 seconds.
+  path: Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/facade_plaster_3_diffuse_1024.mat
+  artifactKey: Guid(97fedbcb087c54a80b703333a7b6b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Geopipe/Pack01/NYBlock01/Materials/facade_plaster_3_diffuse_1024.mat using Guid(97fedbcb087c54a80b703333a7b6b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ba95807b3f67c59e6fd631c8c12280') in 0.027801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset/Noto_Sans_KR/static/NotoSansKR-SemiBold.ttf
+  artifactKey: Guid(853ea9c4d9df83246bb4b52e32bb13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Noto_Sans_KR/static/NotoSansKR-SemiBold.ttf using Guid(853ea9c4d9df83246bb4b52e32bb13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838b0bffd51e1b1648154259714a5560') in 0.054002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Asset/Noto_Sans_KR/static/NotoSansKR-Black.ttf
+  artifactKey: Guid(8a9156bb035860444939abf4883d977c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Noto_Sans_KR/static/NotoSansKR-Black.ttf using Guid(8a9156bb035860444939abf4883d977c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a14327e0b985251e81514859491bba') in 0.011924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset/Noto_Sans_KR/static/NotoSansKR-Regular.ttf
+  artifactKey: Guid(28ab769e5c9ade244bf445a5b949bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Noto_Sans_KR/static/NotoSansKR-Regular.ttf using Guid(28ab769e5c9ade244bf445a5b949bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14b3af2bc5ad202f4eb5f382af5ba0e') in 0.011942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset/Noto_Sans_KR/static/NotoSansKR-Light.ttf
+  artifactKey: Guid(33e5d6f6d5f363e448a82d568723275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset/Noto_Sans_KR/static/NotoSansKR-Light.ttf using Guid(33e5d6f6d5f363e448a82d568723275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246ec592882da4e7808d25d84b2089a0') in 0.016563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
