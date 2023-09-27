@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2096878031260060946}
   - component: {fileID: 5053465905861086236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4451972543465902231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1482332620185439662}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fin.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2671344440066211187}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fin.03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1667708833345851695}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fin.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5649907917083796168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tail.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3246381807696946246}
   - component: {fileID: 5706366109723028712}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 844769837998770325}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fin.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,8 @@ GameObject:
   - component: {fileID: 1122215140006089722}
   - component: {fileID: 7075838402142945065}
   - component: {fileID: -5936500892419888746}
-  m_Layer: 0
+  - component: {fileID: -9155168079942913117}
+  m_Layer: 7
   m_Name: FishBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,6 +458,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+--- !u!64 &-9155168079942913117
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4913251682805744955}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &5793432047369931208
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +489,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4426882332166752685}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fin.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5829716867647649145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2519748785305280325}
   - component: {fileID: 7830427169582580894}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8437394275916923074}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3288988449839990160}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tail.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7519865308069247302}
   - component: {fileID: 3133887308915128075}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
